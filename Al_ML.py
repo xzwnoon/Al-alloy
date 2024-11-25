@@ -1,11 +1,10 @@
 import importlib.util
-
-import streamlit as st    
-
+  
 import numpy as np
 import pandas as pd
 
-from sklearn.metrics import r2_score
+import streamlit as st 
+from sklearn.metrics  import r2_score 
 
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import silhouette_score
